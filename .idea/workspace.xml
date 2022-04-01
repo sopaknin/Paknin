@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9db5a65d-e39a-4edf-b0ab-f4e79ac9b48e" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/AdbWinApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdbWinUsbApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDL2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adb.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avcodec-59.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avformat-59.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avutil-57.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k40.vbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libusb-1.0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_a_terminal_here.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrcpy-console.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrcpy-noconsole.vbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrcpy-server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrcpy.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suitable.vbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suitable2.vbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swresample-4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swscale-6.dll" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="27CI22W2x9TvMdc5X1245ojezSE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9db5a65d-e39a-4edf-b0ab-f4e79ac9b48e" name="默认更改列表" comment="" />
+      <created>1648817431169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648817431169</updated>
+    </task>
+    <servers />
+  </component>
+</project>
