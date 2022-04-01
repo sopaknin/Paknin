@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9db5a65d-e39a-4edf-b0ab-f4e79ac9b48e" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/AdbWinApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdbWinUsbApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SDL2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adb.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/avcodec-59.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/avformat-59.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/avutil-57.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k40.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libusb-1.0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_a_terminal_here.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrcpy-console.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrcpy-noconsole.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrcpy-server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrcpy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/suitable.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/suitable2.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swresample-4.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swscale-6.dll" beforeDir="false" />
-    </list>
+    <list default="true" id="8b5d9381-9644-44b5-b48e-d1fcc9519a26" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="27CI22W2x9TvMdc5X1245ojezSE" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="252dtNYZp6Sq0m7QBAt2rJZXl4B" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,19 +37,71 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="flutter.preview.tool.window.visible" value="true" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RunManager" selected="Flutter.main.dart">
+    <configuration name="loginpage.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/loginpage.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mutiroute.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/mutiroute.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routedemo.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/routedemo.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/test.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart" />
+        <item itemvalue="Flutter.test.dart" />
+        <item itemvalue="Flutter.routedemo.dart" />
+        <item itemvalue="Flutter.loginpage.dart" />
+        <item itemvalue="Flutter.mutiroute.dart" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9db5a65d-e39a-4edf-b0ab-f4e79ac9b48e" name="默认更改列表" comment="" />
-      <created>1648817431169</created>
+      <changelist id="8b5d9381-9644-44b5-b48e-d1fcc9519a26" name="Default Changelist" comment="" />
+      <created>1644729333389</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648817431169</updated>
+      <updated>1644729333389</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/test.dart</url>
+          <line>49</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
