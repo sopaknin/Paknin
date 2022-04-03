@@ -1,60 +1,121 @@
+import 'dart:math';
+
+import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+        home: Home(),
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData.light()
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
-
+class Home extends StatefulWidget {
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _HomeState createState() => _HomeState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+class _HomeState extends State<Home> {
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
+  late ConfettiController controller1;
+
+  @override
+  void initState() {
+    controller1 = ConfettiController(duration: Duration(milliseconds: 500));
+    super.initState();
   }
 
   @override
+  void dispose() {
+    controller1.dispose();
+    super.dispose();
+  }
+  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+    return SafeArea(
+        child: Scaffold(
+          body: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Align(
+                  alignment: Alignment.topCenter,
+                  child: ConfettiWidget(
+                    confettiController: controller1,
+                    shouldLoop: true,
+                    blastDirection: pi / 2,
+                    gravity: 0.02,
+                    numberOfParticles: 100,
+                    emissionFrequency: 0.02,
+                    displayTarget: true,
+                    blastDirectionality: BlastDirectionality.explosive,
+                    colors: [
+                      Colors.redAccent,
+                      Colors.purpleAccent,
+                      Colors.pinkAccent,Colors.orange,
+                      Colors.orangeAccent
+                    ],
+                  ),
+                ),
+                // ignore: deprecated_member_use
+                SizedBox(height: 100,),
+                ElevatedButton(
+                    onPressed: (){
+                      setState(() {
+                        controller1.play();
+                        showDialog(
+                            context: context,
+                            builder: (BuildContext context){
+                              return AlertDialog(
+                                content: Container(
+                                  height:100,
+                                  width:100,
+                                  alignment: Alignment.center,
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(width: 4,color: Colors.redAccent),
+                                      borderRadius: BorderRadius.circular(25),
+                                      boxShadow: [
+                                        BoxShadow(
+                                            blurRadius: 25,
+                                            color: Colors.redAccent,
+                                            offset: Offset(1,15)
+                                        )
+                                      ]
+                                  ),
+                                  child: Text("HAPPY BIRTHDAY",
+                                    style: TextStyle(
+                                        color: Colors.black,
+                                        fontStyle: FontStyle.italic,
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 25
+                                    ),),
+                                ),
+                              );
+                            });
+
+                      });
+                    },
+
+                    child: Text("Press",
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 25,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w800
+                      ),)
+                )
+              ],
             ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+          ),
+        )
     );
   }
 }

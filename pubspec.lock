@@ -57,6 +57,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.15.0"
+  confetti:
+    dependency: "direct dev"
+    description:
+      name: confetti
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.6.0"
   convex_bottom_bar:
     dependency: "direct main"
     description:
