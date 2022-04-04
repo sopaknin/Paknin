@@ -37,7 +37,7 @@ class page_2 extends StatelessWidget {
           child: wishes(text: '祝你年年有今日！',),
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image:AssetImage("assets/whole_family.png"),
+                  image:AssetImage("assets/shengri.png"),
                   fit: BoxFit.fitWidth,
               )
           )
