@@ -19,12 +19,22 @@ class _welcome_pageState extends State<welcome_page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageView.builder(
-        scrollDirection: Axis.vertical,
-        itemCount: 3,
-        itemBuilder: (_, index){
-          return page_1();
-      }),
+      body: Container(
+        child: PageView(
+          scrollDirection: Axis.vertical,
+          children: [
+            page_1(),
+            page_2(),
+            page_3(),
+          ],
+        ),
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image:AssetImage("assets/flower.png"),
+                fit: BoxFit.fitHeight
+            )
+        ),
+      )
     );
   }
 }
