@@ -100,7 +100,8 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 flutter_native_splash:
-  color: "#DC143C"
+  color: "#000000"
+  image: "assets/hbd.png"
   ardroid: true
   ios: true
   web: true
