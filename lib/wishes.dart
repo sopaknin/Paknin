@@ -11,7 +11,7 @@ class wishes extends StatelessWidget {
       alignment: Alignment.topCenter,
       margin: EdgeInsets.only(top: 200),
       child: AnimatedTextKit(animatedTexts: [
-        TyperAnimatedText('吃屎啊李若昕',textStyle: TextStyle(fontSize: 50))
+        TyperAnimatedText('做核酸啊李若昕',textStyle: TextStyle(fontSize: 50))
       ],),
       
     );
