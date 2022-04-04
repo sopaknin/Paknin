@@ -7,11 +7,11 @@ class page_1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        // margin: EdgeInsets.only(top:450,left: 20,right: 20),
+        margin: EdgeInsets.only(top:45,left: 20,right: 20),
         width: double.maxFinite,
         height: double.maxFinite,
         alignment: Alignment.topCenter,
-        child: wishes(),
+        child: wishes(text: '寿星公，生日快乐啊！',),
         decoration: BoxDecoration(
             image: DecorationImage(
                 image:AssetImage("assets/whole_family.png"),
@@ -29,9 +29,11 @@ class page_2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-          margin: EdgeInsets.only(top:450,left: 20,right: 20),
+          margin: EdgeInsets.only(top:45,left: 20,right: 20),
           width: double.maxFinite,
           height: double.maxFinite,
+          alignment: Alignment.topCenter,
+          child: wishes(text: '祝你年年有今日！',),
           decoration: BoxDecoration(
               image: DecorationImage(
                   image:AssetImage("assets/whole_family.png"),
@@ -49,9 +51,10 @@ class page_3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.only(top:450,left: 20,right: 20),
+        margin: EdgeInsets.only(top:45,left: 20,right: 20),
         width: double.maxFinite,
         height: double.maxFinite,
+        child: wishes(text: '岁岁有今朝！',),
         decoration: BoxDecoration(
             image: DecorationImage(
                 image:AssetImage("assets/hbd.png"),

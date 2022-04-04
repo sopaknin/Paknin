@@ -1,7 +1,8 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 class wishes extends StatelessWidget {
-  const wishes({Key? key}) : super(key: key);
+  const wishes({Key? key, required this.text}) : super(key: key);
+  final String text;
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +12,7 @@ class wishes extends StatelessWidget {
       alignment: Alignment.topCenter,
       margin: EdgeInsets.only(top: 200),
       child: AnimatedTextKit(animatedTexts: [
-        TyperAnimatedText('做核酸啊李若昕',textStyle: TextStyle(fontSize: 50))
+        TyperAnimatedText(text,textStyle: TextStyle(fontSize: 27))
       ],),
       
     );
